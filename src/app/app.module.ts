@@ -3,12 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { FormsModule } from '@angular/forms';
+import { UserSettingsFormComponent } from './user-settings-form/user-settings-form.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserSettingsFormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
